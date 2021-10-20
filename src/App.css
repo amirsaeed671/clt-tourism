@@ -1,0 +1,21 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); */
+/* @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Playfair+Display&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* color:#ff0000ea; */
+  /* font-family: "Playfair Display", serif;
+   */
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  /* color: ; */
+
+  /* background-image:inear-gradient(#ed4823da,#edad23ef); */
+  /* color: */
+}
+p {
+  font-size: 15px;
+}

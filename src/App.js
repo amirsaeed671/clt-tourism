@@ -9,7 +9,7 @@ import Home from "./Components/Home/Home";
 import { red } from "@material-ui/core/colors";
 import Footer from "./Components/Footer/Footer";
 import FooterBottom from "./Components/Footer/FooterBottom";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter,Redirect,Route,Switch } from "react-router-dom";
 
 const theme = createTheme({
   palette: {
@@ -52,8 +52,7 @@ function App() {
       <BrowserRouter>
         <Header />
         <Switch>
-          <Redirect exact from="/" to="/home" />
-          <Route path="/home">
+          <Route path="/">
             <Home />
           </Route>
         </Switch>

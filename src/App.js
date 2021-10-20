@@ -50,13 +50,16 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <BrowserRouter>
-       
         <Header />
-        <Home />
+        <Switch>
+          <Redirect exact from="/" to="/home" />
+          <Route path="/home">
+            <Home />
+          </Route>
+        </Switch>
         <Footer />
         <FooterBottom />
       </BrowserRouter>
-      
     </ThemeProvider>
   );
 }
